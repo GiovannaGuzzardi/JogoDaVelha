@@ -1,0 +1,18 @@
+/* Adicione estas regras CSS no seu arquivo style.css */
+
+
+.x {
+    background-color: #ffb006; /* Cor para X */
+}
+
+.o {
+    background-color: #87ceeb; /* Cor para O */
+}
+
+body {
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+}

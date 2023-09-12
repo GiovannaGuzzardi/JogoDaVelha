@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo de HTML com CSS e JavaScript externos</title>
+
+    <!-- Importando o arquivo CSS externo -->
+    <link rel="stylesheet" type="text/css" href="/style/style.css">
+
+    <!-- Importando o arquivo JavaScript externo -->
+    <script src="/script/script.js"></script>
+</head>
+
+<body onload=inicia()>
+    <div id='board' class="buttonmarcar">
+    </div>
+    <div class="buttonmarcar">
+        <button onclick="jogar()">Marcar</button>
+        <button onclick="resetGame()">Reiniciar</button>
+    </div>
+    <div id='aviso'>
+    </div>
+    <br />
+    <div>
+        Nota: Página baseada no código disponível em <a
+            href="https://www.javascriptprogressivo.net/2019/01/Codigo-Completo-Jogo-velha-JavaScript-HTML-JS.html">
+            JavaScript Progressivo </a>
+    </div>
+</body>
+
+</html>
