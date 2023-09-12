@@ -1,5 +1,3 @@
-console.log("!");
-
 var tabuleiro;
 var board;
 var aviso;
